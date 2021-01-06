@@ -1,12 +1,13 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import { App } from './App';
+import { Front } from './Front';
+
 import "./normalize.css";
 import "./skeleton.css";
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <Front />
   </React.StrictMode>,
   document.getElementById('root')
 );
